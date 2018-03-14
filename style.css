@@ -48,12 +48,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background */
-  /* background-color: black;  */
+  /* background-color: black; */
 }
 
 .background-image {
   position: relative;
-  /* overflow: hidden; */
+  overflow-y: hidden;
+  /* background-color: white; */
+  fill: blue;
 }
 .background-image h1 {
     /* padding: 200px; */
@@ -64,14 +66,15 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0.8;
-}
-i{
-    /* background-color: black; */
-}
+    fill: blue;
 
+    /* width: 100%; */
+    /* height: auto; */
+    /* opacity: 0.8; */
+}
+.logo_background {
+  fill: red;
+}
 
 
 /* Contact Us Form */
@@ -99,4 +102,40 @@ i{
 #contactSubmit {
   color: #d3d3d3 !important;
   background-color: #5d5d5d;
+}
+
+
+
+/*FOOTER SECTION*/
+.footer {
+  background-color: black;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 3px solid white;
+}
+/* #copyright {
+  width: 50%;
+} */
+#copyright p {
+  color: #8C8B8A;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0;
+  text-transform: uppercase;
+}
+#copyright p a {
+  text-decoration: none;
+  color: white;
+}
+.scroll-top {
+  text-align: right;
+}
+/*.scroll-top a {
+  background-color: #0066FF;
+  padding: 25px;
+}*/
+.scroll-top a i {
+  color: white;
+  font-size: 50px;
+  /*padding-top: 10px;*/
 }
